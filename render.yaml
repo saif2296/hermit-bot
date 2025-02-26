@@ -25,11 +25,11 @@ services:
       - key: SUDO
         sync: false
       - key: MODE
-        value: "private"
+        value: "public"
       - key: LOG_MSG
         value: "false"
       - key: AUTO_STATUS_VIEW
-        value: "false"
+        value: "true"
       - key: READ_MSG
         value: "false"
       - key: ALWAYS_ONLINE
